@@ -21,6 +21,14 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+.nous_deux {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
 	position: relative;
@@ -186,6 +194,21 @@ footer {
 
 	.navbar {
 		background-color:#1C2029!important;
+	}
+
+	.photo_md {
+		margin-left: 25%;
+	}
+
+	.nous2 {
+		flex-direction: column;
+		margin-top: 5%;
+		margin-bottom: 3%;
+	}
+
+	.footer_ {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -391,7 +414,11 @@ footer {
   }
 
 .texte-nous {
-	margin: auto;
+	text-align: center;
+}
+
+.nous2 {
+	display: flex;
 }
 
 /* Carte differents partenariats */
@@ -478,4 +505,8 @@ body .parte .card:nth-child(2) .face.face2 {
 body .parte .card:nth-child(3) .face.face2 {
   background-color: #ffffff;
   border-radius: 15px;
+}
+
+.footer_ {
+	column-count: 3;
 }
